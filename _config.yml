@@ -7,8 +7,8 @@ version: 2
 
 # Personal info
 name: Zhilong Chen
-title: heterogeneous computation developer
-email: zhilong.chen@mail.mcgill.ca
+title: Heterogeneous Computation Engineer
+email: firstname.lastname@mail.mcgill.ca
 # website: www.github.com/sproogen/resume-theme
 
 # Dark Mode (true/false/never)
@@ -16,7 +16,7 @@ darkmode: false
 
 # Social links
 # twitter_username: facespics
-github_username:  sproogen
+github_username:  Bye-legume
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -30,10 +30,10 @@ github_username:  sproogen
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,43 +48,47 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  Hi, my name's zhilong and I'm a software engineer at Huawei Canada. Hyper-Contributer to Ray(https://github.com/ray-project/ray). A highly skilled High-Performance Computing Engineer with extensive experience in distributed computing frameworks like RAY and SPARK, and a proven track record in federated learning and large model development. Adept at optimizing machine learning models and processes, with a strong background in mathematical modeling and cryptographic computing technologies. Holds multiple patents in data processing and machine learning methodologies. Known for enhancing system efficiencies and adept at identifying and resolving performance bottlenecks.
+  
+  I am most skilled in: Ray,Pyhton, C++, kubernetes and Cooking.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+#  - title: Projects # Title for the section
+#    layout: list # Type of content section (list/text)
+#    content:
+#      - layout: top-middle
+#        title: Super awesome project
+#        link: github.com/sproogen
+#        # link_text: Project Website
+#        additional_links:
+#          - title:  sproogen/modern-resume-theme
+#            icon: fab fa-github
+#            url: github.com/sproogen/modern-resume-theme
+#          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+#          #   icon: fab fa-github
+#          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+#        quote: >
+#          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+#        description: | # this will include new lines to allow paragraphs
+#          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: Huawei Canada
+        link: https://www.huawei.com/ca/
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        sub_title: Heterogeneous Computation Engineer
+        caption: June 2023 - Present
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          Lower the barrier for using heterogeneous GPU clusters, allowing everyone to enjoy the fun of AI.
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            - Contributed to the Anyscale Ray project, improving task dispatching order for higher NPU usage. Have contributed more than 20 commits to Ray project.
+            - Optimized task scheduling for the RAY distributed computing framework to reduce communication overhead and improve computational efficiency.
+            - Using tools like Grafana, Loki, Prometheus, etc., to enhance the visualization capabilities of RAY, enabling engineers to more easily identify performance bottlenecks and carry out targeted optimizations.
+            - Optimized the deployment strategy for LLM servers, enhancing the processing capabilities of the RAY SERVER components and significantly improving the ability to handle user requests for multimodal models.
+            - Optimized the RAY DATA library from the bottom to the top layer, resulting in a reduction of more than 50% in random query end-to-end time.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
