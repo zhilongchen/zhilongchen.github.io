@@ -48,7 +48,7 @@ github_username:  Bye-legume
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's zhilong and I'm a software engineer at Huawei Canada. Hyper-Contributer to Ray(https://github.com/ray-project/ray). A highly skilled High-Performance Computing Engineer with extensive experience in distributed computing frameworks like RAY and SPARK, and a proven track record in federated learning and large model development. Adept at optimizing machine learning models and processes, with a strong background in mathematical modeling and cryptographic computing technologies. Holds multiple patents in data processing and machine learning methodologies. Known for enhancing system efficiencies and adept at identifying and resolving performance bottlenecks.
+  Hi, my name's zhilong and I'm a software engineer at Huawei Canada. Hyper-Contributer to [Ray](https://github.com/ray-project/ray). A highly skilled High-Performance Computing Engineer with extensive experience in distributed computing frameworks like RAY and SPARK, and a proven track record in federated learning and large model development. Adept at optimizing machine learning models and processes, with a strong background in mathematical modeling and cryptographic computing technologies. Holds multiple patents in data processing and machine learning methodologies. Known for enhancing system efficiencies and adept at identifying and resolving performance bottlenecks.
   
   I am most skilled in: Ray,Pyhton, C++, kubernetes and Cooking.
 
@@ -89,32 +89,65 @@ content:
             - Using tools like Grafana, Loki, Prometheus, etc., to enhance the visualization capabilities of RAY, enabling engineers to more easily identify performance bottlenecks and carry out targeted optimizations.
             - Optimized the deployment strategy for LLM servers, enhancing the processing capabilities of the RAY SERVER components and significantly improving the ability to handle user requests for multimodal models.
             - Optimized the RAY DATA library from the bottom to the top layer, resulting in a reduction of more than 50% in random query end-to-end time.
+            
+  - layout: left
+        title: Huakongqingjiao Inc.
+        sub_title: Federated Learning Architect
+        caption: Nov 2022 - Jan 2023
+        description: |
+          - Developed LLM algorithms based on federated learning, including deployment and subsequent release.
+          - Led the design and product planning of an open-source federated learning architecture, covering aspects like control flow, data flow, load balancing, and communication control.
+          - Refactored federated learning code to improve usability and reduce learning costs for users and clients.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+      - layout: left
+        title: Huakongqingjiao Inc.
+        sub_title: Software Developer
+        caption: Nov 2020 - Nov 2022
+        description: |
+          - Built federated learning frameworks from scratch using various algorithms such as Logistic Regression, XGBoost, and Linear Regression, focusing on secure multi-party computation and homomorphic encryption.
+          - Developed algorithm libraries based on MPC, including privacy-numpy and a scorecard library.
+          - Enabled privacy-preserved XGBoost to handle large-scale datasets (over 200 million samples), reducing runtime from 4 hours to 50 minutes.
+          - Led a project for big data collaboration across MPC platforms, achieving high performance and compliance with data protection regulations.
+
+  
+  - title: Education
+    layout: list
     content:
       - layout: left
         title: McGill University
-        caption: 2017 - 2020
+        caption: Jan 2018 - Apr 2020
         sub_title: MSc Computer Science
         quote: >
-          There are two magic tricks in Math: adding zero and multiplying by one.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          "There are two magic tricks in Math: adding zero and multiplying by one."
+        description: |
+          During my time at McGill University, I took courses such as Applied Machine Learning, Optimization, and Fundamentals of Computer Vision. My education gave me a strong foundation in both theoretical and applied computer science, and I was also a Teaching Assistant for key courses like Applied Machine Learning and Numerical Computing.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+      - layout: left
+        title: Nanjing University of Aeronautics and Astronautics
+        caption: Sep 2012 - Jun 2016
+        sub_title: BSc Computer Science
+        description: |
+          Courses included Programming Language, Discrete Mathematics, Mathematical Analysis, and Numerical Linear Algebra. Awarded scholarships for all four years of undergraduate study.
+
+  - title: Patents
+    layout: list
+    content:
+      - layout: left
+        title: Selected Patents
+        description: |
+          - 2022116717485: A Method, Apparatus, and Electronic Device for Encrypted Data Fitting Computation.
+          - 2022112296044: A Weight Aggregation Method, Apparatus, and System in Model Training.
+          - 2022112946574: A Method, Apparatus, and Electronic Device for Encrypted Data Computation.
+          - 202210645371X: A Model Training Method and Secure Multi-Party Computation System.
 
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
+    content: |
+      Beyond my professional pursuits in high-performance computing and federated learning, I enjoy:
       - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      - Cooking
+      - French
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
