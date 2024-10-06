@@ -89,8 +89,8 @@ content:
             - Using tools like Grafana, Loki, Prometheus, etc., to enhance the visualization capabilities of RAY, enabling engineers to more easily identify performance bottlenecks and carry out targeted optimizations.
             - Optimized the deployment strategy for LLM servers, enhancing the processing capabilities of the RAY SERVER components and significantly improving the ability to handle user requests for multimodal models.
             - Optimized the RAY DATA library from the bottom to the top layer, resulting in a reduction of more than 50% in random query end-to-end time.
-            
-  - layout: left
+    content:      
+      - layout: left
         title: Huakongqingjiao Inc.
         sub_title: Federated Learning Architect
         caption: Nov 2022 - Jan 2023
@@ -98,7 +98,7 @@ content:
           - Developed LLM algorithms based on federated learning, including deployment and subsequent release.
           - Led the design and product planning of an open-source federated learning architecture, covering aspects like control flow, data flow, load balancing, and communication control.
           - Refactored federated learning code to improve usability and reduce learning costs for users and clients.
-
+    content:
       - layout: left
         title: Huakongqingjiao Inc.
         sub_title: Software Developer
@@ -121,7 +121,7 @@ content:
           "There are two magic tricks in Math: adding zero and multiplying by one."
         description: |
           During my time at McGill University, I took courses such as Applied Machine Learning, Optimization, and Fundamentals of Computer Vision. My education gave me a strong foundation in both theoretical and applied computer science, and I was also a Teaching Assistant for key courses like Applied Machine Learning and Numerical Computing.
-
+    content:
       - layout: left
         title: Nanjing University of Aeronautics and Astronautics
         caption: Sep 2012 - Jun 2016
