@@ -46,7 +46,7 @@ github_username:  Bye-legume
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/photo.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's zhilong and I'm a software engineer at Huawei Canada. Hyper-Contributer to [Ray](https://github.com/ray-project/ray). A highly skilled High-Performance Computing Engineer with extensive experience in distributed computing frameworks like RAY and SPARK, and a proven track record in federated learning and large model development. Adept at optimizing machine learning models and processes, with a strong background in mathematical modeling and cryptographic computing technologies. Holds multiple patents in data processing and machine learning methodologies. Known for enhancing system efficiencies and adept at identifying and resolving performance bottlenecks.
   
